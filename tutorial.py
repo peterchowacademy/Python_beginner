@@ -88,7 +88,7 @@ for xcount in number:
     for count in range(xcount):
         output += 'x '
     print(output)
-'''
+
 
 ###list - find the largest number from the list ###
 number = [9,10,12,4,23,51,2,7]
@@ -117,4 +117,37 @@ for row in matrix:
         print(item)
 
 
+### methods in list ##
+numbers = [2,4,5,2,233,23,5]
+numbers.remove(4)
+numbers.clear()
+numbers.append(40)
+numbers.insert(4,2)
+numbers.index(233)
+print(50 in numbers) #generate boolean result
+print(numbers.count(5))
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers2 = numbers.copy()
+'''
 
+##remove duplicate from the list:
+number = [2,2,4,6,3,4,6,1]
+number.sort()
+new_number = []
+for i in number:
+    current_number = i
+    if i not in new_number:
+        new_number.append(i)
+print(new_number)
+
+###tuple - this is not inmutable ##
+number = (1,2,3)
+print (number [0])
+
+##unpacking
+coordinates = (1,2,3)
+x, y, z = coordinates
+print(z)
