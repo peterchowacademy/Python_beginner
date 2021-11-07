@@ -18,6 +18,5 @@ def find_post(id):
     for p in my_posts:
         if p["id"] == id:
             return p
-
-post = find_post(hb)
+post = find_post(1)
 print(post)
