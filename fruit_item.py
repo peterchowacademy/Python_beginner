@@ -8,4 +8,4 @@ class fruit_item(fruit_original):
         assert riped_fruit >= 0, f"Riped fruit {riped_fruit} should greater than zero"
 
         # assign to self object,
-        self.riped_fruit = riped_fruit
+        self.riped_fruit = riped_frusit

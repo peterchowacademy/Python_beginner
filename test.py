@@ -13,10 +13,5 @@
 
 
 
-dict = {'fruit': 'juice', 'price': '10', 'quantity': '5'}
-
-print(dict['fruit'])
-
-num = 8.9
-a = num.is_integer()
-print(a)
+a = "wrwe24234234rw"
+print(len(a))
