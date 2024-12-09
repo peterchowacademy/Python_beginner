@@ -16,3 +16,4 @@ print(f"set is {score2}")ß
 score3 = sorted(score2, reverse=True) #sorted() >> sequence from small to big  #convert set to list
 print(f"new sorted list is {score3}")
 print(f"runner-up score is {score3[1]}")
+
